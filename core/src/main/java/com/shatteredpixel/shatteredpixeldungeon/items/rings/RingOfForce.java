@@ -42,7 +42,7 @@ public class RingOfForce extends Ring {
 	{
 		icon = ItemSpriteSheet.Icons.RING_FORCE;
 	}
-
+	
 	@Override
 	protected RingBuff buff( ) {
 		return new Force();
@@ -86,7 +86,7 @@ public class RingOfForce extends Ring {
 				&& hero.buff(BrawlersStance.class).active){
 				// 3+tier base dmg, roughly +60%->45% dmg at T1->5
 				// lvl*((4+2*tier)/8) scaling, +50% dmg
-				dmg += Math.round(3+tier+(level*((4+2*tier)/8f)));
+				dmg += 300;
 			}
 			return dmg;
 		} else {
