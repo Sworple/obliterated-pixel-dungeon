@@ -73,7 +73,7 @@ public class ChaliceOfBlood extends Artifact {
 
 		if (action.equals(AC_PRICK)){
 
-			int damage = 5 + 3*(level()*level());
+			int damage = 5;
 
 			if (damage > hero.HP*0.75) {
 
@@ -98,7 +98,7 @@ public class ChaliceOfBlood extends Artifact {
 	}
 
 	private void prick(Hero hero){
-		int damage = 5 + 3*(level()*level());
+		int damage = 5;
 
 		Earthroot.Armor armor = hero.buff(Earthroot.Armor.class);
 		if (armor != null) {

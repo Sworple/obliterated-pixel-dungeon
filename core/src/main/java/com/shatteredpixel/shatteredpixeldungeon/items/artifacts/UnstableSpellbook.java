@@ -66,9 +66,9 @@ public class UnstableSpellbook extends Artifact {
 
 		levelCap = 10;
 
-		charge = (int)(level()*0.6f)+2;
+		charge = (int)(level()*0.6f)+9;
 		partialCharge = 0;
-		chargeCap = (int)(level()*0.6f)+2;
+		chargeCap = (int)(level()*0.6f)+9;
 
 		defaultAction = AC_READ;
 	}

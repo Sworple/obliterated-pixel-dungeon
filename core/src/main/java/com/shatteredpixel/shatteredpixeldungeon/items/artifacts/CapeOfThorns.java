@@ -42,7 +42,7 @@ public class CapeOfThorns extends Artifact {
 		chargeCap = 100;
 		cooldown = 0;
 
-		defaultAction = "NONE"; //so it can be quickslotted
+		defaultAction = "NONE"; //so it can't be quickslotted
 	}
 
 	@Override
